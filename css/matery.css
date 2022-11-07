@@ -35,6 +35,7 @@
 
 body {
     background-color: #eaeaea;
+    /* background: url(../medias/banner/3.jpg); */
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -241,7 +242,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #f79d00 0%, #64f38c 100%);
 }
 
 .text-color {
@@ -551,6 +552,7 @@ header .go-back i {
 }
 
 .bg-cover:after {
+    background: linear-gradient(45deg, rgba(247,157,0, 0.75) 0%, rgba(100,243,140, 0.65) 100%);
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
 }
@@ -593,7 +595,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -683,8 +685,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
-
+} */
 .index-card {
     margin-top: -10px;
     padding-top: 20px;
