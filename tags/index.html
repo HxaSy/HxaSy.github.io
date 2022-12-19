@@ -414,10 +414,52 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/Vue/" title="Vue: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Vue" style="background-color: #F9EBEA;">Vue
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/" title="前端框架: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="前端框架" style="background-color: #F5EEF8;">前端框架
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Vue","weight":1,"link":"/tags/Vue/"},{"text":"前端框架","weight":1,"link":"/tags/前端框架/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
